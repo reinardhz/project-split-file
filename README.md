@@ -55,7 +55,7 @@ gradlew.bat clean build
 java -Xmx[memory_in_mega_bytes]M -jar split-1.0.jar -b [bytes] -t [number_of_threads] [file_path]
 ```
 
-Lets say you have a file named "movie.mp4" and its size is 1.4 Gigabytes, and you want to split the file to 52 Megabytes each.
+Lets say you have a file named "movie.mp4" and its size is 1.4 Gigabytes (1430646208 bytes), and you want to split the file to 52 Megabytes each.
 Then, below command will do it:
 
 ```
