@@ -1,4 +1,4 @@
-###Split Application
+### Split Application
 
 The command line "split" program is too slow to split a large file, because it is only use 1 thread.
 Splitting a 1.4-Gigabytes video into 52 Megabytes each, will take forever.
@@ -6,7 +6,7 @@ Splitting a 1.4-Gigabytes video into 52 Megabytes each, will take forever.
 That is why I make this application. This split application is a java application that can split a large file using multithread.
 Splitting a 1.4-Gigabytes video into 52 Megabytes each is just a few seconds.
 
-###How to use
+### How to use
 
 First of all, make sure that you have java 8 installed in your computer. To make sure java is installed properly is to open terminal or command line application
 then execute:
@@ -49,7 +49,7 @@ gradlew.bat clean build
 
 5.After building the project, you should find the jar file (split-1.0.jar) in `project-split-folder/build/libs` directory.
 
-####Usage
+#### Usage
 
 ```
 java -Xmx[memory_in_mega_bytes]M -jar split-1.0.jar -b [bytes] -t [number_of_threads] [file_path]
