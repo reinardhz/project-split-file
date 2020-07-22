@@ -27,7 +27,7 @@ Second option is to build this project, and run the generated jar.
 
 #### Download
 
-Download `split-1.0.jar` at 
+Download `split-1.0.jar` at: https://github.com/reinardhz/project-split-file/releases/download/v1.0/split-1.0.jar
 
 #### Build
 1.First git clone this project.
