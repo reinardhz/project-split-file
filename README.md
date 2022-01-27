@@ -8,7 +8,7 @@ Splitting a 1.4-Gigabytes video into 52 Megabytes each is just a few seconds.
 
 ### How to use
 
-First of all, make sure that you have java 8 installed in your computer. To make sure java is installed properly is to open terminal or command line application
+First of all, make sure that you have java minimum version 8 installed in your computer. To make sure java is installed properly is to open terminal or command line application
 then execute:
 
 ```
